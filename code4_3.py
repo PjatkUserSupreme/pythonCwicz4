@@ -17,6 +17,6 @@ def caesar_cipher(wiadomosc, klucz, alfabet=''):
 
 data = "The Project Gutenberg eBook of Alice’s Adventures in Wonderland, by Lewis Carroll"
 
-enc = caesar_cipher(data, 3,["a","B"])
+enc = caesar_cipher(data, 3)
 
 print(enc)
